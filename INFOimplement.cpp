@@ -10,10 +10,10 @@ Seat::Seat() {
 	this->seatNum = 0;
 	this->price = 10000;
 	this->resNum = 0;
-	memcpy(this->booker, 0x00, MAX_Booker_LEN+1);
+	memcpy(this->booker, 0x00, MAX_Booker_LEN+1);// HELLO
 }
 
-Seat::Seat(int snum, int pprice, int rnum, std::string bbooker = NULL) //resNum=¿¹¾à¹øÈ£, booker=¿¹¾àÀÚ
+Seat::Seat(int snum, int pprice, int rnum, std::string bbooker = NULL) //resNum=Â¿Â¹Â¾Ã Â¹Ã¸ÃˆÂ£, booker=Â¿Â¹Â¾Ã Ã€Ãš
 {
 	seatNum = snum;
 	price = pprice;
