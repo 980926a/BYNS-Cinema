@@ -13,9 +13,9 @@ Seat::Seat() {
 	memcpy(this->booker, 0x00, MAX_Booker_LEN+1);
 }
 
-Seat::Seat(int snum, int pprice, int rnum, std::string bbooker = NULL) //resNum=¿¹¾à¹øÈ£, booker=¿¹¾àÀÚ
+Seat::Seat(int snum, int pprice, int rnum, std::string bbooker = NULL) //resNum=Â¿Â¹Â¾Ã Â¹Ã¸ÃˆÂ£, booker=Â¿Â¹Â¾Ã Ã€Ãš
 {
-	seatNum = snum;
+	seatNum = snum; // ìˆ˜ì • í•©ë‹ˆë‹¤~
 	price = pprice;
 	resNum = rnum;
 	memcpy(this->booker, bbooker.c_str(), MAX_Booker_LEN);
